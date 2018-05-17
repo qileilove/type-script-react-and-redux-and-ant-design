@@ -1,0 +1,10 @@
+{
+  "rules": {},
+  "linterOptions": {
+    "exclude": [
+      "src/**/*.ts",
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  }
+}
