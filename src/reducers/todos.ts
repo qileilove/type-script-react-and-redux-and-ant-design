@@ -16,7 +16,8 @@ function todos(state: Todos, action: TodoAction): Todos {
     return state.map(todo => 
       (todo.id === action.id) ? {...todo, completed: !todo.completed} : todo
     );
-
+  case TodoActionType.DELETE_TODO:
+    return state.filter(todo => todo.id !== action.id);
   default: 
     return state;
  }
