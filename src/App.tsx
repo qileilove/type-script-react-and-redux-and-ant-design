@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.css';
-import AddTodoButton from './containers/AddTodoButtonContainer';
-import TodoList from './containers/TodoListContainer';
+import AddTodoButton from './containers/AddTodoButton/AddTodoButtonContainer';
+import TodoList from './containers/TodoList/TodoListContainer';
 
 class App extends React.Component {
   public render() {
