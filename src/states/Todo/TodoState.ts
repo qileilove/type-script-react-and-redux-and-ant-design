@@ -1,7 +1,5 @@
-export interface ITodo {
+export interface ITodoState {
     id: number;
     completed: boolean;
     text: string;
 }
-
-export type Todos = ITodo[];

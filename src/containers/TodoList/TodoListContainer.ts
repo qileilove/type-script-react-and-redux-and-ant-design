@@ -1,7 +1,8 @@
 import { connect, Dispatch } from 'react-redux';
-import { TodoAction, toggleTodo, deleteTodo } from "../../actions";
+import { TodoAction } from '../../actions/Todo/TodoAction'
+import { toggleTodo, deleteTodo } from "../../actions/Todo/TodoActionCreator";
 import TodoList from "../../components/TodoList/TodoList";
-import { Todos } from "../../states/TodoState"
+import { Todos } from '../../states/Todo/TodosState';
 
 interface IStateFromProps {
   todos: Todos

@@ -1,5 +1,6 @@
-import { TodoAction, TodoActionType } from "../../actions";
-import { Todos } from "../../states/Todo/TodoState";
+import { TodoAction } from '../../actions/Todo/TodoAction'
+import { TodoActionType } from "../../actions/Todo/TodoActionType";
+import { Todos } from "../../states/Todo/TodosState";
 
 function todos(state: Todos, action: TodoAction): Todos {
   switch(action.type) {
