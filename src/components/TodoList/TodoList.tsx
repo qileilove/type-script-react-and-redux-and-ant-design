@@ -1,6 +1,6 @@
 import * as React from 'react';
-import * as State from '../states/TodoState';
-import Todo from './Todo';
+import * as State from '../../states/Todo/TodoState';
+import Todo from '../Todo/Todo';
 
 export interface ITodoListProps {
     todos: State.Todos;
