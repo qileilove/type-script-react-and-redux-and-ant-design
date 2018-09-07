@@ -26,6 +26,7 @@
     "@types/react-dom": "^16.0.5",
     "@types/react-redux": "^6.0.0",
     "@types/react-router-dom": "^4.3.0",
+    "antd": "^3.9.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "react-router-dom": "^4.3.1",
