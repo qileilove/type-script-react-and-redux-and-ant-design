@@ -15,7 +15,7 @@ class Todo extends React.Component<ITodoProps, {}> {
                 <label onClick={onClick} style={ {textDecoration: completed? 'line-through' : 'none' } }>
                     {text}
                 </label>
-                <button onClick={onDelete}>削除</button>
+                <button onClick={onDelete}>DELETE</button>
             </li>
         )
     }
