@@ -4,6 +4,7 @@ import { HomePage } from "./page/HomePage";
 // import { HomePage1 } from "./page/HomePage1";
 
  import {AppPage} from "./AppPage"
+import antToDo from "./components/antDesign/antToDo";
 // const MainWrapper = styled.main`
 //   min-height: 100vh;
 //   display: flex;
@@ -17,9 +18,10 @@ export default class Routes extends React.Component {
   public render() {
     return (
       <BrowserRouter>
-      <div>
+          <div>
           <Route path="/test" component={HomePage} />
           <Route path="/zzz" component={AppPage} />
+          <Route path="/antd" component={antToDo}/>
           </div>
       </BrowserRouter>
     )

@@ -21,7 +21,7 @@ class AddTodoButton extends React.Component<IAddTodoButtonProps, IAddTodoButtonS
             <div>
                 <form onSubmit={this.onFormSubmit}>
                     <input type="text" value={this.state.input} onChange={this.onInputChange}/>
-                    <button type="submit">ADDTodo</button>
+                    <button type="submit">Todoを追加</button>
                 </form>
             </div>
         )
